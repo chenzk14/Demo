@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 3452963 */
+    src: url('//at.alicdn.com/t/font_3452963_kxlptzhf9m.woff2?t=1654507660675') format('woff2'),
+    url('//at.alicdn.com/t/font_3452963_kxlptzhf9m.woff?t=1654507660675') format('woff'),
+    url('//at.alicdn.com/t/font_3452963_kxlptzhf9m.ttf?t=1654507660675') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 60px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_baidulogo:before {
+    content: "\e65e";
+}
