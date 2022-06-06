@@ -139,7 +139,7 @@ a {
         background-position: center 78px;
         box-shadow: 0 30px 28px -16px rgba(0, 0, 0, 0.26);
         transform: translate(0, -4px);
-        letter-spacing: 0; }
+        letter-spacing: 4px; }
         .functional_box .fun_ei .fun_box:hover div {
           color: #000000; }
         .functional_box .fun_ei .fun_box:hover .tx_blo {
