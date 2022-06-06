@@ -162,9 +162,10 @@ a {
   left: 3%;
   line-height: 64px; }
   .Togo_Header .Togo_back {
+    cursor: pointer;
     font-size: 14px;
-    background: #dfdfdf;
     width: 80px;
+    background: #dfdfdf;
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
@@ -172,6 +173,8 @@ a {
     float: left;
     text-align: center;
     vertical-align: middle; }
+    .Togo_Header .Togo_back:hover {
+      opacity: 0.5; }
   .Togo_Header .Togo_Tlink {
     float: left;
     font-size: 24px;
@@ -185,28 +188,36 @@ a {
     margin-top: 20px; }
     .Togo_body ul .Togo_li .Togo_list_img {
       height: 100px;
-      width: 12%;
-      background: #dfdfdf;
+      width: 150px;
       float: left;
-      border-radius: 10px;
       margin: 10px; }
+      .Togo_body ul .Togo_li .Togo_list_img img {
+        object-fit: cover;
+        width: 100%;
+        height: 100px;
+        display: block;
+        border-radius: 10px; }
     .Togo_body ul .Togo_li .Togo_list_head {
       float: left;
       font-size: 16px;
       margin-left: 10px;
-      padding-top: 35px;
-      padding-bottom: 35px;
-      width: 85%; }
+      padding: 25px 0 15px 0;
+      width: 85%;
+      font-weight: bold; }
     .Togo_body ul .Togo_li .Togo_list_intro {
-      font-size: 12px;
+      font-size: 14px;
       color: black;
       opacity: .8;
-      padding-top: 20px; }
+      float: left;
+      margin-left: 10px;
+      letter-spacing: 2px; }
     .Togo_body ul .Togo_li:hover {
       border-radius: 10px;
       cursor: pointer;
       box-shadow: 0 30px 28px -20px rgba(0, 0, 0, 0.26);
       transform: translate(0, -4px); }
+      .Togo_body ul .Togo_li:hover .Togo_list_head {
+        letter-spacing: 2px; }
     .Togo_body ul .Togo_li .Togo_TimeBox {
       height: 21px;
       float: right; }
@@ -215,13 +226,15 @@ a {
         width: 21px;
         background: #dfdfdf;
         border-radius: 5px;
-        float: left; }
+        float: left;
+        background: url("../images/time.png") no-repeat;
+        background-size: 21px; }
       .Togo_body ul .Togo_li .Togo_TimeBox .Togo_Time_tx {
         float: left;
         padding-left: 10px;
         color: black;
         opacity: 0.7;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 21px;
         text-align: center; }
 
