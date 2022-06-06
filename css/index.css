@@ -130,7 +130,8 @@ a {
         font-size: 25px;
         padding: 10px 0; }
       .functional_box .fun_ei .fun_box .tx_ro {
-        margin-top: 15px; }
+        margin-top: 15px;
+        letter-spacing: 2px; }
       .functional_box .fun_ei .fun_box:hover {
         text-decoration: none;
         font-size: 16px;
